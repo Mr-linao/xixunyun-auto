@@ -18,7 +18,7 @@
          uses: actions/setup-node@v1
          with:
            node-version: 10.x
-       # npm install
+        # npm install
        - name: 签到日志
          env:
            ACCOUNT: ${{ secrets.ACCOUNT }}
